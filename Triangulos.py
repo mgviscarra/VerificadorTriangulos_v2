@@ -6,4 +6,12 @@ def classifyTriangle(side1, side2, side3):
     else:
         return "Escaleno"
     
-
+def getSide(message):
+    while True:
+        try:
+            side = int(input(message))
+            if side < 1:
+                raise ValueError
+            return side
+        except ValueError:
+            print("Ingrese un valor valido (valor > 0): ")
