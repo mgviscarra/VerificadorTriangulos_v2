@@ -15,3 +15,19 @@ def getSide(message):
             return side
         except ValueError:
             print("Ingrese un valor valido (valor > 0): ")
+
+def execute():
+    control = True
+    while control:
+        print("Ingrese la longitud de los lados del triángulo:")
+        side1 = getSide("Lado 1: ")
+        side2 = getSide("Lado 2: ")
+        side3 = getSide("Lado 3: ")
+        print("El triángulo es: " + classifyTriangle(side1,side2,side3))
+        print("¿Desea ingresar los datos de otro triángulo? (1 -> Si, Cualquier tecla -> No)")
+        option = input()
+        if option != "1":
+            control = False
+    
+if __name__ == "__main__":
+    execute()
