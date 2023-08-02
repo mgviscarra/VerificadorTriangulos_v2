@@ -1,0 +1,8 @@
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\bin\Debug\Triangulos.exe.config
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\bin\Debug\Triangulos.exe
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\bin\Debug\Triangulos.pdb
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\obj\Debug\Triangulos.csproj.AssemblyReference.cache
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\obj\Debug\Triangulos.csproj.SuggestedBindingRedirects.cache
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\obj\Debug\Triangulos.csproj.CoreCompileInputs.cache
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\obj\Debug\Triangulos.exe
+D:\archivos2\Certi2\Triangulos\Triangulos\Triangulos\obj\Debug\Triangulos.pdb
