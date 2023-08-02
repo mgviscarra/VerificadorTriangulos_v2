@@ -20,9 +20,12 @@ def ejecutar():
     
     print("\n\nIngrese los lados a, b, c de su triangulo para clasificarlo:")
         
-    a = verificarLado("Ingrese el lado a: ")
-    b = verificarLado("Ingrese el lado b: ")
-    c = verificarLado("Ingrese el lado c: ")
+    try:
+        a = verificarLado("Ingrese el lado a: ")
+        b = verificarLado("Ingrese el lado b: ")
+        c = verificarLado("Ingrese el lado c: ")
+    except Exception:
+        print("Error")
 
     print("Su triangulo es: " + verificarTriangulo(a,b,c))    
     
