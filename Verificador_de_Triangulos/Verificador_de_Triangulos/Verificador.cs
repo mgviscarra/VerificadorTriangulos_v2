@@ -29,5 +29,47 @@
         {
             return (a + b > c && a + c > b && b + c > a);
         }
+
+        // Validar float
+        public static float NumeroValido(string mensaje)
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine(mensaje);
+                    float numero = float.Parse(Console.ReadLine());
+
+                    if (float.IsInfinity(numero))
+                    {
+                        throw new OverflowException();
+                    }
+                    else if (numero > 0)
+                    {
+                        return numero;
+                    }
+                    else
+                    {
+                        Console.WriteLine("ERROR: Ingrese un número mayor a 0.");
+                    }
+                }
+                // Manejo de errores
+                // -    Tipo no Numeral
+                catch (FormatException)
+                {
+                    Console.WriteLine("ERROR: Ingrese un número válido.");
+                }
+                // -    Numero fuera de rango de float
+                catch (OverflowException)
+                {
+                    Console.WriteLine("ERROR: Ingrese un número dentro del rango de float.");
+                }
+                // -   Errores inesperados
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"ERROR INESPERADO: {ex.Message}");
+                }
+            }
+        }
     }
 }
