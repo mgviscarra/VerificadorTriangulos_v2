@@ -14,7 +14,7 @@ def main():
         #seccion para ingresar los lados A, B y C de los triangulos
         lA = float(input("Ingrese el Lado A del Triangulo "))
         lB = float(input("Ingrese el Lado B del Triangulo "))
-        lC = float(input("Ingrese el Lado C del Triangulo 5"))
+        lC = float(input("Ingrese el Lado C del Triangulo "))
 
         #verificacion del ingreso de numeros positivos
         if lA <= 0 or lB <= 0 or lC <= 0 :
