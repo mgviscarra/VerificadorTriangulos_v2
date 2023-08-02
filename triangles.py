@@ -13,9 +13,9 @@ class classifyTriangles:
         p3 = input()
         x2, y2 = map(float, p3.split())
 
-        dist1 = abs(sqrt(pow((x1-x0),2)+pow((y1-y0),2)))
-        dist2 = abs(sqrt(pow((x2-x1),2)+pow((y2-y1),2)))
-        dist3 = abs(sqrt(pow((x2-x0),2)+pow((y2-y0),2)))
+        dist1 = round(sqrt(pow((x1-x0),2)+pow((y1-y0),2)))
+        dist2 = round(sqrt(pow((x2-x1),2)+pow((y2-y1),2)))
+        dist3 = round(sqrt(pow((x2-x0),2)+pow((y2-y0),2)))
 
         if (classifyTriangles.isEquilateral(dist1, dist2, dist3)):
             print('El triangulo es equilatero')
