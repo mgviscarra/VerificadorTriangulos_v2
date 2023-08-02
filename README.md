@@ -15,6 +15,12 @@ El siguiente programa verifica si un conjunto de tres lados pueden formar un tri
 3. Ejecute el programa haciendo clic en el botón de "Run" o presionando `F5`.
 4. Siga las instrucciones en la terminal para ingresar los lados del triángulo y obtener la clasificación.
 
+### Desde el archivo .exe
+
+1. Descargue el archivo `verificador_triangulos.exe`.
+2. Ejecute el archivo `verificador_triangulos.exe`.
+3. Siga las instrucciones en la consola para ingresar los lados del triángulo y obtener la clasificación.
+
 ## Utilizar el programa
 
 1. Cuando ejecute el programa, verá un menú con dos opciones:

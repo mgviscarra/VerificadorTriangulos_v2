@@ -21,8 +21,12 @@ class VerificadorTriangulos:
         print("---------VERIFICADOR DE TRIANGULOS---------")
         print("1. Verificar triangulo")
         print("2. Salir")
-        option = int(input("Seleccione una opcion: "))
-        return option
+        try:
+            option = int(input("Seleccione una opcion: "))
+            return option
+        except ValueError:
+            print("\nError: Debe ingresar un valor numerico para la opcion.\n")
+            return None
         
     def main(self):
         while True:
