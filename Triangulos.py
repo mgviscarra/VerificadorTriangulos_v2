@@ -18,7 +18,7 @@ def verificarLado(msg):
         
 def ejecutar():
     
-    print("Ingrese los lados a, b, c de su triangulo para clasificarlo:")
+    print("\n\nIngrese los lados a, b, c de su triangulo para clasificarlo:")
         
     a = verificarLado("Ingrese el lado a: ")
     b = verificarLado("Ingrese el lado b: ")
