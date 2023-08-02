@@ -14,7 +14,7 @@ def getSide(message):
                 raise ValueError
             return side
         except ValueError:
-            print("Ingrese un valor valido (valor > 0): ")
+            print("Ingrese un valor válido (valor entero > 0): ")
 
 def execute():
     control = True
