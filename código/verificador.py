@@ -33,3 +33,5 @@ else:
             print("EL TRIANGULO ES ISOSCELES")
         else:
             print("EL TRIANGULO ES ESCALENO")
+
+input("Presiona Enter para cerrar\n")
