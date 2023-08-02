@@ -28,8 +28,6 @@ Para poder ejecutar cada uno de los programas se debe:
 - Instalar las librerias previamente descritas
 - Abrir el programa en su IDE de preferencia (mejor si es VSCode)
 - Asegurarse que este python instalado, en caso que no:
-- ```sh
-pip install pyhton
-```
+  - Instalar python para su sistema operativo. 
 - Apretar el boton de Ejecutar
 - Insertar los datos requeridos
