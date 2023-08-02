@@ -11,11 +11,11 @@ El siguiente programa verifica si un conjunto de tres lados pueden formar un tri
 ### Desde Visual Studio Code
 
 1. Instale Python desde Visual Studio Code.
-2. Abra el archivo `verificador_triangulos.py` en Visual Studio Code.
+2. Abra el archivo `VerificadorTriangulos.py` en Visual Studio Code.
 3. Ejecute el programa haciendo clic en el botón de "Run" o presionando `F5`.
 4. Siga las instrucciones en la terminal para ingresar los lados del triángulo y obtener la clasificación.
 
-## Cómo utilizar el programa
+## Utilizar el programa
 
 1. Cuando ejecute el programa, verá un menú con dos opciones:
    - **1. Verificar triángulo:** Seleccione esta opción para ingresar los lados del triángulo y obtener la clasificación.
