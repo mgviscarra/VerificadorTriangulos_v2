@@ -1,0 +1,1 @@
+# VerificadorTriangulos_v2
