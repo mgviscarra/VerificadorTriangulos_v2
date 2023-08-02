@@ -17,14 +17,34 @@ class VerificadorTriangulos:
         else:
             return True
         
-    def main(self):
-        a = float(input("Ingrese el lado A del triangulo: "))
-        b = float(input("Ingrese el lado B del triangulo: "))
-        c = float(input("Ingrese el lado C del triangulo: "))
+    def displayMenu(self):
+        print("---------VERIFICADOR DE TRIANGULOS---------")
+        print("1. Verificar triangulo")
+        print("2. Salir")
+        option = int(input("Seleccione una opcion: "))
+        return option
         
-        if self.checkTriangle(a, b, c):
-            triangle_type = self.triangleType(a, b, c)
-            print("El triangulo es " + triangle_type + "\n")
+    def main(self):
+        while True:
+            option = self.displayMenu()
+
+            if option == 1:
+                try:
+                    a = float(input("Ingrese el lado A del triangulo: "))
+                    b = float(input("Ingrese el lado B del triangulo: "))
+                    c = float(input("Ingrese el lado C del triangulo: "))
+                except ValueError:
+                    print("Error: Debe ingresar valores numericos para los lados del triangulo.\n")
+                    continue
+
+                if self.checkTriangle(a, b, c):
+                    triangle_type = self.triangleType(a, b, c)
+                    print("El triangulo es " + triangle_type + "\n")
+
+            elif option == 2:
+                break
+            else:
+                print("Opcion invalida. Intente nuevamente.\n")
 
 if __name__ == "__main__":
     verificadorTriangulos = VerificadorTriangulos()
