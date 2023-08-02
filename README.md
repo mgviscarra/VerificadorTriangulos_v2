@@ -51,6 +51,3 @@ Si tienes Python 3.x configurado por defecto, puedes usar el comando `python` en
 ## Notas adicionales
 
 - Asegúrate de ingresar valores numéricos válidos y positivos para los lados del triángulo. Si ingresas valores inválidos, el programa mostrará un mensaje de error.
-
-- Ten en cuenta que este código no realiza verificaciones para garantizar que los tamaños ingresados formen un triángulo válido. En situaciones reales, es esencial asegurarse de que la suma de las longitudes de dos lados sea siempre mayor que la longitud del tercer lado para formar un triángulo válido.
-
